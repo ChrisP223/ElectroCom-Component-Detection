@@ -25,6 +25,7 @@ This project has 2 versions, one that uses software exclusively, and one that al
   - We can mount a laser pointer, or anything else we please on the top servo.
    ### Wiring
   - files for the 3D printed parts can be found at(all credit to creator): https://www.printables.com/model/465433-pan-tilt-for-sg-90-servo
+  ![WIRING](wiring_servos.jpg)
   
 
   
