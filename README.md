@@ -15,8 +15,9 @@ This project has 2 versions, one that uses software exclusively, and one that al
 - We export 3 files: best.pt (best weights), last.pt (last epoch weights), best.onnx (what we will use for our model)
 
   **Training information is found in the .ipynb file.**
--LINK TO FILE: https://colab.research.google.com/drive/1e1FRskLH6LZpXtDoFnHjWZt47VjkZM1l?usp=sharing
--LINK TO WEIGHTS: 
+- LINK TO FILE: https://colab.research.google.com/drive/1e1FRskLH6LZpXtDoFnHjWZt47VjkZM1l?usp=sharing
+
+- LINK TO WEIGHTS: 
   ### Example Screenshots
 
 ## Version 2
