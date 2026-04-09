@@ -17,7 +17,7 @@ This project has 2 versions, one that uses software exclusively, and one that al
   **Training information is found in the .ipynb file.**
 - LINK TO FILE: https://colab.research.google.com/drive/1e1FRskLH6LZpXtDoFnHjWZt47VjkZM1l?usp=sharing
 
-- LINK TO WEIGHTS: 
+- LINK TO WEIGHTS: https://www.mediafire.com/file/li5otja7crz4egj/best.onnx/file
   ### Example Screenshots
 
 ## Version 2
