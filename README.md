@@ -53,6 +53,11 @@ ElectroCom.yolov8/
 
 Labels are .txt files per image with class index + bounding box coords.
 
+## Weights & notebook
+
+* LINK TO WEIGHTS: https://www.mediafire.com/file/li5otja7crz4egj/best.onnx/file
+* LINK TO NOTEBOOK: https://colab.research.google.com/drive/1e1FRskLH6LZpXtDoFnHjWZt47VjkZM1l?usp=sharing
+
 ## Model & Training
 
 We use `yolov8s.pt`. It offers a good balance of speed and accuracy for laptop-class live tracking. (`yolov8n.pt` for faster training, `yolov8m.pt` for more accuracy)
@@ -96,14 +101,7 @@ Validated after 100 epochs:
 Servo-Motor only had 2 validation images so that number is unreliable. Note that keypad also scores lower.
 
 ## Version 1
-
-* Run `detection.py` for live webcam detection with bounding boxes
-* Run `detectionnocam.py` to test on static images instead
-
-### Weights & notebook
-
-* LINK TO WEIGHTS: https://www.mediafire.com/file/li5otja7crz4egj/best.onnx/file
-* LINK TO NOTEBOOK: https://colab.research.google.com/drive/1e1FRskLH6LZpXtDoFnHjWZt47VjkZM1l?usp=sharing
+* Run `detectionnostand.py` to test without servo communication!
 
 ### Setup
 
