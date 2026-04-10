@@ -55,7 +55,7 @@ Labels are .txt files per image with class index + bounding box coords.
 
 ## Model & Training
 
-We use `yolov8s.pt`. It offers a good balance of speed and accuracy for laptop-class real time inference. (`yolov8n.pt` for faster training, `yolov8m.pt` for more accuracy)
+We use `yolov8s.pt`. It offers a good balance of speed and accuracy for laptop-class live tracking. (`yolov8n.pt` for faster training, `yolov8m.pt` for more accuracy)
 
 * T4 GPU on Google Colab
 * 100 epochs, patience=30 (early stopping)
