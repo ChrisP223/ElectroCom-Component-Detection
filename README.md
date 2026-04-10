@@ -60,9 +60,9 @@ Labels are .txt files per image with class index + bounding box coords.
 
 ## Model & Training
 
-We use `yolov8s.pt`. It offers a good balance of speed and accuracy for laptop-class live tracking. (`yolov8n.pt` for faster training, `yolov8m.pt` for more accuracy)
+We use `yolov8s.pt`. It offers a good balance of speed and accuracy for laptop power live tracking. (`yolov8n.pt` for faster training, `yolov8m.pt` for more accuracy)
 
-* T4 GPU on Google Colab
+* T4 GPU on Google Colab because CPU training is painfully slowwww
 * 100 epochs, patience=30 (early stopping)
 * imgsz=640, batch=16 so the model can capture details of each item
 
