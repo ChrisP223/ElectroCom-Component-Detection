@@ -107,13 +107,21 @@ Servo-Motor only had 2 validation images so that number is unreliable. Note that
 
 ```bash
 pip install ultralytics opencv-python
-python detection.py
+python detectionnocam.py
 ```
 
 ## Version 2
 
 Same as version 1, except bounding box center coordinates get sent to an Arduino which converts them to servo angles for a 2 servo stand. Mount a laser pointer (or anything really) on the top servo.
-
+### Setup
+ - RUN ARDUINO CODE BEFOREHAND!
+ - Close the IDE while .ino code is running.
+ - Collect the data as mentioned before.
+ - run detection.py when you're done.
+```bash
+pip install ultralytics opencv-python
+python detection.py
+```
 ### Wiring
 
 3D printed parts (all credit to creator): https://www.printables.com/model/465433-pan-tilt-for-sg-90-servo
