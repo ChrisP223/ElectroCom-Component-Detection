@@ -25,8 +25,9 @@ void loop() {
       newPan  = constrain(newPan,  30, 150);
       newTilt = constrain(newTilt, 30, 150);
 
-      panAngle  += constrain(newPan  - panAngle,  -3, 3);
-      tiltAngle += constrain(newTilt - tiltAngle, -3, 3);
+      // Smooth tracking
+      panAngle  += constrain(newPan  - panAngle,  -15, 15);
+      tiltAngle += constrain(newTilt - tiltAngle, -15, 15);
 
       panServo.write(panAngle);
       tiltServo.write(tiltAngle);
