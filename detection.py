@@ -50,7 +50,7 @@ def main():
         if not ret:
             break
 
-        results = model(frame, conf=0.1, verbose=False)#low conf for now
+        results = model(frame, conf=0.25, verbose=False)#low conf for now
         annotated = results[0].plot()
 
         box = get_largest_box(results)
