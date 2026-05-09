@@ -125,7 +125,7 @@ python detection.py
 ### Wiring
 
 3D printed parts (all credit to creator): https://www.printables.com/model/465433-pan-tilt-for-sg-90-servo
-
+TOP SERVO AT PIN 9, BOTTOM AT PIN 10
 ![wiring](wiring_servos.jpg)
 
 ## Dataset prep (if retraining)
